@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <title>Polls</title>
   </head>
-  <body>
+  <body>7
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
     <p>
         {% if latest_question_list %}
     <ul>
